@@ -11,10 +11,12 @@ function processEntry() {
         alert("Error. Please enter an integer between 0-99");
     }
 
+    // Runs makeChange if acceptable values are entered
     else if(totalCents >= 0 || totalCents <= 99) {
         makeChange(totalCents);
     }
     
+    // Sends an alert out that will remind user to enter acceptable values
     else {
         alert("Error. Please enter an integer between 0-99");
     }
